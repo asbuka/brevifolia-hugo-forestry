@@ -5,7 +5,27 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: heading
-  label: test
+  label: Head 2
+- type: heading
+  label: Head 1
+- type: directory
+  path: ''
+  label: Dir 2
+  create: all
+  match: "**/*"
+- type: directory
+  path: ''
+  label: Dir 1
+  create: all
+  match: "**/*"
+- type: document
+  path: ''
+  label: Doc 2
+  match: "**/*"
+- type: document
+  path: ''
+  label: Doc 1
+  match: "**/*"
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
